@@ -6,3 +6,7 @@ img {
   display: block;
   margin-inline: auto;
 }
+#countDownTimer {
+  font-size: 3rem;
+  padding: 1px;
+}
