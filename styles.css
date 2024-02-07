@@ -1,12 +1,43 @@
-h1, h2, p {
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  background-image: url('avgAakraBU.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+
+p, h1, a {
   display: flex;
   justify-content: center;
+  background-color: black;
+  padding: 1rem;
+  border-radius: 5px;
+  color: aliceblue;
 }
-img {
-  display: block;
-  margin-inline: auto;
+.bottomlink {
+  position: absolute;
+  bottom: 10%;
+  left: 42%;
 }
-#countDownTimer {
-  font-size: 3rem;
-  padding: 1px;
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+hr {
+  margin: auto;
+  width: 40%;
 }
